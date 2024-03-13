@@ -1,15 +1,18 @@
-const accountid = 112233
-let accountemail = "dheeru@gmail.com"
-var accountpassword = "0000"
-let account city = "jamnagar"
+const accountid = 112233;
+let accountemail = "dheeru@gmail.com";
+var accountpassword = "0000";
+let accountcity = "jamnagar";
+let accountstate;
 
-// accountid = 12345
+// You can't reassign a constant variable, so this line will throw an error
+// accountid = 12345;
 
-accountemail = "dj@djgmail.com"
-accountpassword = "1111"
-accountcity = "jabalpur"
+// Modifying the values of the variables
+accountemail = "dj@djgmail.com";
+accountpassword = "1111";
+accountcity = "jabalpur";
 
+// prefer not to use var
 
 console.log(accountid);
-
-console.table([accountid, accountemail, accountpassword, accountcity])
+console.table([accountid, accountemail, accountpassword, accountcity, accountstate]);
