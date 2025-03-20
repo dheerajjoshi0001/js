@@ -36,3 +36,6 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo()); 
+
+// if we use sumbol as key then we cant access the key by using the object.key method
+// we have to use the object[key] method to access the key
